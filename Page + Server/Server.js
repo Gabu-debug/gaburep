@@ -12,7 +12,7 @@ const server = http.createServer ((req, res) => {
         })
     } /*else if (myUrl.pathname === '/giochi.html') {}*/
         else {
-            bind.toFile ('Page_con_Tutto/home.html', {}, data => {
+            bind.toFile ('Page_con_Tutto/Index.html', {}, data => {
                 res.writeHead (200, {'content-type':'text/html'})
                 res.end (data)
         })
