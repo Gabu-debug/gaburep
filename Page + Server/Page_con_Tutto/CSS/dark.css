@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+a { text-decoration: white; }
+
+/*navbar*/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif ;
+}   
+
+#navbar .d_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgb(1, 4, 12);
+}
+
+#navbar .d_box h3{
+    padding: 15px 40px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: rgb(0, 153, 255);
+}
+
+.d_box h3:hover {    
+    background-color: rgb(10, 22, 58);
+}
+
+
+#navbar .d_icon {
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(0, 153, 255);
+
+}
+
+.d_icon i {
+    padding: 15px;
+    border-radius: 15px;
+    max-height: 25px;    
+}
+
+.d_icon i:hover {
+    background-color: rgb(10, 22, 58);
+}
+
+/*section 1*/
+
+#centro .d_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: rgb(0, 153, 255);
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(10, 22, 58); 
+    height: 86vh;
+}
+
+.d_giochi, .d_scuola {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px ;
+    cursor: pointer;
+    margin-right: 50px;
+    box-shadow: 2px 1px 5px rgb(49, 80, 160);
+    color:rgb(110, 144, 230);
+}
+
+.d_giochi:hover, .d_scuola:hover {
+    background-color:  rgb(12, 27, 70);;
+    transition: all 0.5s ease-in-out;
+}
+
+#centro .d_container i {
+    padding: 20px;
+}
+
+/*footer*/
+
+#diritti .d_container {
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(1, 4, 12);
+    color: rgb(0, 153, 255);
+
+}
+
+#diritti .d_container h3 {
+    text-align: center;
+    padding: 20px
+}
+
+/*SCUOLA*/
+
+#cose_scuola .d_container {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 86vh;
+    flex: 1;
+    text-align: center;
+    cursor: default;
+    color:rgb(110, 144, 230);
+    background-color: rgb(10, 22, 58); 
+    transition: all 0.3s ease-in-out;
+}
+
+#cose_scuola h3 {
+    cursor: pointer;
+}
+
+#cose_scuola .d_stato {
+    display: flex;
+    flex-direction: column; 
+}
+
+#cose_scuola .d_box_stato {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.d_box_stato .info {
+    color:rgb(60, 114, 6);
+}
+
+#cose_scuola .d_box_lezione_link, #cose_scuola .d_box_entrata {
+    padding: 60px;
+    border-radius: 10px;
+    background-color: rgb(7, 17, 46);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 1px 5px rgb(49, 80, 160);
+}
+
+#cose_scuola .d_box_lezione_link:hover, #cose_scuola .d_box_entrata:hover {
+    background-color:  rgb(12, 27, 70);  
+    transition: all 0.3s ease-in-out;
+}
+#cose_scuola .d_box_lezione_link {
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+#cose_scuola .d_box_entrata {
+    height: 50vh;
+    width: 50vh;
+    margin-right: 200px;
+}
+
+#cose_scuola .d_box_link h2 {
+    padding-right: 20px;
+}
+
+#cose_scuola .d_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+#cose_scuola .d_box_btn_ss {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 100px;
+}
+
+#cose_scuola .d_box_btn_ss h3 {
+    font-size: 2.0rem;
+}
+
+#cose_scuola .d_box_stato {
+    margin: 40px 30px;
+}
+
+#cose_scuola .d_box_nobtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    width: 30vh;
+}
+
+#cose_scuola .d_lezione {
+    display: flex;
+    flex-direction: row;
+    padding-right: 0;
+    justify-content: space-between;
+}
+
+#cose_scuola .d_box_btn_re {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    text-align: right;
+}
+
+#rileva, #btn_rileva {
+    margin-bottom: 20px;
+}
+
+#cose_scuola .d_btn_links {
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+    padding: 5px;
+    color: rgb(0, 153, 255);
+    box-shadow: 2px 1px 5px rgb(0, 153, 255);
+    text-align: center;
+}
+
+#cose_scuola .d_btn_links:hover {
+    background-color: rgb(14, 31, 82);
+    transition: all 0.2s ease-in-out;
+}
+
+
+.box_stup {
+    padding-bottom: 15px;
+}

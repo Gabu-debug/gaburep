@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+a { text-decoration: white; }
+
+::selection {
+    color: yellow;
+    background-color: teal;
+}
+/*navbar*/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif ;
+}   
+
+#navbar .l_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(40, 73, 157);
+}
+
+#navbar .l_box h3{
+    padding: 15px 40px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor:pointer;
+    color: rgb(172, 172, 172);
+}
+
+.l_box h3:hover {
+    background-color: rgb(75, 111, 202);
+}
+
+
+#navbar .l_icon {
+    color: rgb(172, 172, 172);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.l_icon i {
+    padding: 15px;
+    border-radius: 15px;
+    max-height: 25px;
+}
+
+.l_icon i:hover {
+    background-color: rgb(75, 111, 202);
+}
+
+/*section 1*/
+
+#centro .l_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: rgb(70, 81, 233);
+    transition: all 0.5s ease-in-out;
+    height: 86vh;
+    background-color:  rgb(198, 212, 253);
+}
+
+.l_giochi, .l_scuola {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 1px 5px rgb(49, 80, 160);
+    margin-right: 50px;
+}
+
+.l_giochi:hover, .l_scuola:hover {
+    background-color:  rgb(156, 180, 255); 
+    transition: all 0.5s ease-in-out;
+}
+
+#centro .l_container i {
+    padding: 20px
+}
+
+/*footer*/
+
+#diritti .l_container {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 80, 160);
+    color: white;
+}
+
+#diritti .l_container h3 {
+    text-align: center;
+    padding: 20px;
+    cursor: default;
+}
+
+
+/*SCUOLA*/
+
+#cose_scuola .l_container {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 86vh;
+    flex: 1;
+    text-align: center;
+    cursor: default;
+    color: rgb(70, 81, 233);
+    background-color:  rgb(198, 212, 253);
+}
+
+#cose_scuola h3 {
+    cursor: pointer;
+}
+
+#cose_scuola .l_stato {
+    display: flex;
+    flex-direction: column; 
+}
+
+#cose_scuola .l_box_stato {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#cose_scuola .l_box_stato .info {
+    color:rgb(60, 114, 6);
+}
+
+#cose_scuola .l_box_lezione_link, #cose_scuola .l_box_entrata {
+    border-radius: 10px;
+    box-shadow: 2px 1px 5px rgb(49, 80, 160);
+    transition: all 0.3s ease-in-out;
+    padding: 60px
+}
+
+#cose_scuola .l_box_lezione_link:hover, #cose_scuola .l_box_entrata:hover {
+    background-color:  rgb(156, 180, 255);
+    transition: all 0.3s ease-in-out;
+}
+
+.l_box_mostra {
+    padding: 0;
+}
+
+#cose_scuola .l_box_lezione_link {
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+#cose_scuola .l_box_entrata {
+    height: 50vh;
+    width: 50vh;
+    margin-right: 200px;
+}
+
+#cose_scuola .l_box_link h2 {
+    padding-right: 20px;
+}
+
+#cose_scuola .l_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+#cose_scuola .l_box_btn_ss {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 100px;
+}
+
+#cose_scuola .l_box_btn_ss h3 {
+    font-size: 2.0rem;
+}
+
+#cose_scuola .l_box_stato {
+    margin: 40px 30px;
+}
+
+#cose_scuola .l_box_nobtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    width: 30vh;
+}
+
+#cose_scuola .l_lezione {
+    display: flex;
+    flex-direction: row;
+    padding-right: 0;
+    justify-content: space-between;
+}
+
+#cose_scuola .l_box_btn_re {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    text-align: right;
+}
+
+#rileva, #btn_rileva {
+    margin-bottom: 20px;
+}
+
+.l_btn_links {
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+    padding: 5px;
+    color: rgb(3, 102, 169);
+    box-shadow: 2px 1px 5px rgb(3, 102, 169);
+    text-align: center;
+}
+
+.l_btn_links:hover {
+    background-color: rgb(189, 186, 186);
+    transition: all 0.2s ease-in-out;
+}
+
+.box_stup {
+    padding-bottom: 15px;
+}
+
+#txt_lezione_a, #txt_lezione_s {
+    color:rgb(60, 114, 6);
+}

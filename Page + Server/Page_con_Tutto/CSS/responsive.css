@@ -1,0 +1,15 @@
+#div_scuola {
+    display: flex;
+    flex-direction: column;
+    max-width: 150vh;
+}
+
+#box_ll {
+    margin: 0px;
+    padding: 0px;
+}
+
+#div_entrata {
+    margin: 0px;
+    padding: 0px;
+}
